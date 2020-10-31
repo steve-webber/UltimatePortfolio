@@ -16,6 +16,14 @@
 		AA209E4A2549F032007F8936 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA209E492549F032007F8936 /* CloudKit.framework */; };
 		AA209E4D2549F392007F8936 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E4C2549F392007F8936 /* HomeView.swift */; };
 		AA209E502549F471007F8936 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E4F2549F471007F8936 /* ProjectsView.swift */; };
+		AA209E53254AF8DC007F8936 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E52254AF8DC007F8936 /* Item-CoreDataHelpers.swift */; };
+		AA209E56254AFADC007F8936 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E55254AFADC007F8936 /* Project-CoreDataHelpers.swift */; };
+		AA209E5A254C5914007F8936 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E59254C5914007F8936 /* EditItemView.swift */; };
+		AA209E5D254C5FC7007F8936 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E5C254C5FC7007F8936 /* ItemRowView.swift */; };
+		AA209E60254C6297007F8936 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E5F254C6297007F8936 /* Binding-OnChange.swift */; };
+		AA209E63254C6C28007F8936 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E62254C6C28007F8936 /* ProjectHeaderView.swift */; };
+		AA209E66254C7145007F8936 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA209E65254C7145007F8936 /* Colors.xcassets */; };
+		AA209E8F254C7535007F8936 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA209E8E254C7535007F8936 /* EditProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,14 @@
 		AA209E492549F032007F8936 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AA209E4C2549F392007F8936 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AA209E4F2549F471007F8936 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		AA209E52254AF8DC007F8936 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		AA209E55254AFADC007F8936 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		AA209E59254C5914007F8936 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		AA209E5C254C5FC7007F8936 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		AA209E5F254C6297007F8936 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
+		AA209E62254C6C28007F8936 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		AA209E65254C7145007F8936 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AA209E8E254C7535007F8936 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +84,17 @@
 				AA209E462549F02B007F8936 /* UltimatePortfolio.entitlements */,
 				AA209E2E254387BB007F8936 /* UltimatePortfolioApp.swift */,
 				AA209E30254387BB007F8936 /* ContentView.swift */,
+				AA209E59254C5914007F8936 /* EditItemView.swift */,
+				AA209E5F254C6297007F8936 /* Binding-OnChange.swift */,
 				AA209E4C2549F392007F8936 /* HomeView.swift */,
 				AA209E4F2549F471007F8936 /* ProjectsView.swift */,
+				AA209E62254C6C28007F8936 /* ProjectHeaderView.swift */,
+				AA209E8E254C7535007F8936 /* EditProjectView.swift */,
+				AA209E5C254C5FC7007F8936 /* ItemRowView.swift */,
 				AA209E3E2549E485007F8936 /* Main.xcdatamodeld */,
+				AA209E65254C7145007F8936 /* Colors.xcassets */,
+				AA209E52254AF8DC007F8936 /* Item-CoreDataHelpers.swift */,
+				AA209E55254AFADC007F8936 /* Project-CoreDataHelpers.swift */,
 				AA209E422549E7AA007F8936 /* DataController.swift */,
 				AA209E32254387BD007F8936 /* Assets.xcassets */,
 				AA209E37254387BD007F8936 /* Info.plist */,
@@ -152,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA209E66254C7145007F8936 /* Colors.xcassets in Resources */,
 				AA209E36254387BD007F8936 /* Preview Assets.xcassets in Resources */,
 				AA209E33254387BD007F8936 /* Assets.xcassets in Resources */,
 			);
@@ -165,11 +190,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA209E502549F471007F8936 /* ProjectsView.swift in Sources */,
+				AA209E63254C6C28007F8936 /* ProjectHeaderView.swift in Sources */,
 				AA209E402549E485007F8936 /* Main.xcdatamodeld in Sources */,
 				AA209E432549E7AA007F8936 /* DataController.swift in Sources */,
+				AA209E8F254C7535007F8936 /* EditProjectView.swift in Sources */,
 				AA209E31254387BB007F8936 /* ContentView.swift in Sources */,
+				AA209E5D254C5FC7007F8936 /* ItemRowView.swift in Sources */,
 				AA209E4D2549F392007F8936 /* HomeView.swift in Sources */,
+				AA209E60254C6297007F8936 /* Binding-OnChange.swift in Sources */,
 				AA209E2F254387BB007F8936 /* UltimatePortfolioApp.swift in Sources */,
+				AA209E56254AFADC007F8936 /* Project-CoreDataHelpers.swift in Sources */,
+				AA209E53254AF8DC007F8936 /* Item-CoreDataHelpers.swift in Sources */,
+				AA209E5A254C5914007F8936 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
